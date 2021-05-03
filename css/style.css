@@ -89,9 +89,15 @@ header .menu-toggle{
 
 
 @media only screen and (max-width:750px){
+
+    header{
+        position: relative;
+    }
     header ul{
         width: 100%;
         background: #0E94A0;
+        max-width: 0px;
+        overflow: hidden;
     }
     header ul li{
         width: 100%;
@@ -100,5 +106,23 @@ header .menu-toggle{
         position: static;
         width: 100%;
         display: block;
+    }
+    header ul li ul li a{
+        padding: 10px;
+        background-color: #0E94A0;
+        color: #fff;
+        padding-left: 50px;
+    
+    }
+    
+    header ul li ul li a.logout{
+        color: red;
+    }
+    header .menu-toggle{
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 15px;
+        font-size: 1.9em;
     }
 }
