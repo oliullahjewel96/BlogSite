@@ -37,6 +37,19 @@ a{
     background: #044547;
 }
 
+.text-input{
+    padding: 8px 16px;
+    display: block;
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    outline: none;
+    color: #444;
+    line-height: 1.5rem;
+    font-size: 1.2em;
+    font-family: "Lora", sans-serif;
+}
+
 header{
     background: #008489;
     height: 4.125rem;
@@ -229,6 +242,44 @@ header .menu-toggle{
     float: right;
     height: 300px;
 }
+
+/* SIDEBAR */
+
+.content .sidebar .section{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.content .sidebar .section .section-title{
+    margin: 10px 0 10px 0;
+}
+
+.content .sidebar .section.search{
+    margin-top: 80px;
+}
+
+.content .sidebar .section.topics ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    border-top: 1px solid #e0e0e0;
+}
+
+.content .sidebar .section.topics ul li a{
+    display: block;
+    padding: 15px 0 15px 0;
+    border-bottom: 1px solid #e0e0e0;
+    transition: all 0.5s;
+}
+
+.content .sidebar .section.topics ul li a:hover{
+    padding-left: 10px;
+    transition: all 0.5s;
+}
+
+
 /* MEDIA QUERIES */
 
 
