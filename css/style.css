@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f6f6f6;
+    font-family: "Lora", serif;
+}
+
+header{
+    background: #008489;
+    height: 4.125rem;
+}
+header *{
+    color: white;
+}
+
+header .logo{
+    float: left;
+    height: inherit;
+    margin-left: 2em;
+}
+header .logo-text span{
+    color: #09ebf3;
+}
+header .logo-text{
+    margin: 9px;
+}
+
+header ul{
+    float: right;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header ul li{
+    float: left;
+    position: relative;
+}
+header ul li ul{
+    position: absolute;
+    top: 66px;
+    right: 0;
+    width: 180px;
+    display: none;
+}
+header ul li:hover ul{
+    display: block;
+}
+
+header ul li ul li{
+    width: 100%;
+}
+
+header ul li ul li a{
+    padding: 10px;
+    background-color: #fff;
+    color: #444;
+
+}
+
+header ul li ul li a:hover{
+    background: #bcc1c2;
+}
+header ul li ul li a.logout{
+    color: red;
+}
+
+header ul li a{
+    padding: 21px;
+    font-size: 1.1em;
+    text-decoration: none;
+    display: block;
+}
+
+header ul li a:hover{
+    background: #064547;
+    transition: 0.5s;
+}
+
+header .menu-toggle{
+    display: none;
+}
+
+/* MEDIA QUERIES */
+
+
+@media only screen and (max-width:750px){
+    header ul{
+        width: 100%;
+        background: #0E94A0;
+    }
+    header ul li{
+        width: 100%;
+    }
+    header ul li ul{
+        position: static;
+        width: 100%;
+        display: block;
+    }
+}
