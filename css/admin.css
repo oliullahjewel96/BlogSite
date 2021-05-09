@@ -1,0 +1,21 @@
+header{
+    background: #01474a;
+}
+
+
+.admin-wrapper{
+   display: flex;
+   height: 100%;
+}
+
+.admin-wrapper .left-sidebar{
+    flex: 2;
+    height: 100%;
+    background: #234a57 !important;
+}
+
+.admin-wrapper .admin-content{
+    flex: 8;
+    height: 100%;
+}
+
