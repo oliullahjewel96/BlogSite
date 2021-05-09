@@ -210,6 +210,18 @@ header .menu-toggle{
 
 }
 
+.content .main-content.single{
+    background: #fff;
+    padding: 20px 50px;
+    font-size: 1.1em;
+    border-radius: 5px;
+}
+
+.content .main-content.single .post-title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
 .content .main-content .post{
     width: 95%;
     height: 270px;
@@ -217,6 +229,20 @@ header .menu-toggle{
     border-radius: 5px;
     background: #fff;
     position: relative;
+}
+
+.content .popular .post{
+
+    margin-top: 10px;
+    padding-top: 10px;
+
+}
+
+.content .popular .post img{
+    height: 60px;
+    width: 75px;
+    float: left;
+    margin-right: 10px;
 }
 .content .main-content .post .read-more{
     position: absolute;
@@ -251,6 +277,10 @@ header .menu-toggle{
     width: 30%;
     float: right;
     height: 300px;
+}
+
+.content .sidebar.single{
+    padding-left: 10px;
 }
 
 /* SIDEBAR */
