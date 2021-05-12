@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans&display=swap" rel="stylesheet">
+     
+    <link rel="stylesheet" href="../../css/style.css">
+
+    <link rel="stylesheet" href="../../css/admin.css">
+    <title>Admin Section | Add Users</title>
+</head>
+<body>
+      <header>
+          <div class="logo">
+              <h1 class="logo-text"><span>Blog</span> Site</h1>
+          </div>
+          <i class="fa fa-bars menu-toggle"></i>
+          <ul>
+              <li>
+                  <a href="">
+                    <i class="fa fa-user"></i>  
+                    Oli Ullah
+                    <i class="fas fa-chevron-down" style="font-size: 0.8em;"></i>
+                  </a>
+                    
+                  <ul>
+                  <li><a href="" class="logout">Log-out</a></li>
+                </ul>
+            </li>
+          </ul>
+      </header>
+     
+      <!-- Admin Page Wrapper -->
+      <div class="admin-wrapper">
+
+
+        <!-- Left-sidebar -->
+         <div class="left-sidebar">
+               <ul>
+                 <li><a href="../posts/index.html">Manage Posts</a></li>
+                 <li><a href="index.html">Manage Users</a></li>
+                 <li><a href="../topics/index.html">Manage topics</a></li>
+               </ul>
+         </div>
+        <!-- End of left-sidebar -->
+
+        <!-- Admin-content -->
+           <div class="admin-content">
+                <div class="button-group">
+                  <a href="create.html" class="btn btn-big">Add Users</a>
+                  <a href="index.html" class="btn btn-big">Manage Users</a>
+                </div>
+
+                <div class="content">
+                  <h2 class="page-title">Add Users</h2>
+
+                 <form action="" method="post">
+                    <div>
+                        <label for="">Username</label>
+                        <input type="text" name="username" class="text-input">
+                    </div>
+                    <div>
+                        <label for="">Email</label>
+                        <input type="email" name="email" class="text-input">
+                    </div>
+                    <div>
+                        <label for="">Password</label>
+                        <input type="password" name="password" class="text-input">
+                    </div>
+                    <div>
+                        <label for="">Password Confirmation</label>
+                        <input type="password" name="passwordConf" class="text-input">
+                    </div>
+                    <div>
+                        <label for="">Role</label>
+                        <select name="Role" class="text-input">
+                            <option value="Author">Author</option>
+                            <option value="Admin">Admin</option>
+                        </select>
+                    </div>
+                         <button type="submit" class="btn btn-big">Add User</button>
+                     </div>
+                 </form>
+                </div>
+           </div>
+         <!--End of Admin-content -->
+      </div>
+
+
+       
+       <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+       <script src="https://cdn.ckeditor.com/ckeditor5/27.1.0/classic/ckeditor.js"></script>
+
+       <script src="../../js/editor.js"></script>
+</body>
+</html>
