@@ -35,3 +35,6 @@ $('.post-wrapper').slick({
         // instead of a settings object
       ]
   });
+
+
+  
