@@ -40,13 +40,51 @@
 
         <!-- Left-sidebar -->
          <div class="left-sidebar">
-
+               <ul>
+                 <li><a href="index.html">Manage Posts</a></li>
+                 <li><a href="../users/index.html">Manage Users</a></li>
+                 <li><a href="../topics/index.html">Manage topics</a></li>
+               </ul>
          </div>
         <!-- End of left-sidebar -->
 
         <!-- Admin-content -->
            <div class="admin-content">
+                <div class="button-group">
+                  <a href="create.html" class="btn btn-big">Add Post</a>
+                  <a href="index.html" class="btn btn-big">Manage Posts</a>
+                </div>
 
+                <div class="content">
+                  <h2 class="page-title">Manage Post</h2>
+
+                  <table>
+                    <thead>
+                      <th>SN</th>
+                      <th>Title</th>
+                      <th>Author</th>
+                      <th colspan="3">Action</th>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>This is the first post</td>
+                        <td>Oli</td>
+                        <td><a href=""class="edit">Edit</a></td>
+                        <td><a href=""class="delete">Delete</a></td>
+                        <td><a href=""class="publish">Publish</a></td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>This is the second post</td>
+                        <td>kazal</td>
+                        <td><a href=""class="edit">Edit</a></td>
+                        <td><a href=""class="delete">Delete</a></td>
+                        <td><a href=""class="publish">Publish</a></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
            </div>
          <!--End of Admin-content -->
       </div>
